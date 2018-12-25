@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1706615572107290}
+  m_IsPrefabParent: 1
+--- !u!1 &1706615572107290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4008861318227902}
+  - component: {fileID: 114082314885459462}
+  - component: {fileID: 114948864443399004}
+  - component: {fileID: 114574803350567756}
+  - component: {fileID: 114481124878856630}
+  m_Layer: 0
+  m_Name: FirstLaunchGO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4008861318227902
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1706615572107290}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114082314885459462
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1706615572107290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 485665c3f9c4f3f4bbca9055c083b67a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFirstLaunch: 1
+  isMuted: 0
+  isPaused: 0
+  timesPlayed: 0
+  TutorialPanel: {fileID: 1238440607804340, guid: 6617f1b6258a6ca46af9b198608fc909,
+    type: 2}
+  AboutPanel: {fileID: 1881111446320028, guid: 298fede397a1b8b4bacebc3e1725da15, type: 2}
+  BiscuitStorePanel: {fileID: 1687364327752278, guid: 7ca8ab8156167f345b24f8c3269d8ad9,
+    type: 2}
+  ReturnBtn: {fileID: 21300000, guid: a2885fef83cbc914f8754025deb4ddd7, type: 3}
+  cloudFileName: BiscutsSave
+  cloudSavedData:
+    cloudDB:
+      listS: []
+      listP: []
+      listE: []
+    current_Biscuits: 0
+    current_Weapon_Bags: 0
+    current_Hero_Bags: 0
+    current_Enemy_Bags: 0
+    high_Score: 0
+  RateUsPopup: {fileID: 1783433024490558, guid: 045ea84429282de49ba271ae7b86fdf2,
+    type: 2}
+  Popup: {fileID: 1344348213800294, guid: c448d88f122eec840a8c17457432f912, type: 2}
+  isConnectedToGoogleServices: 0
+--- !u!114 &114481124878856630
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1706615572107290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c0b145661f7d694a94f7e1e90a3cca3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ads: {fileID: 1411890540394374, guid: 21637ba9b45124c4d94a5b676fe09179, type: 2}
+--- !u!114 &114574803350567756
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1706615572107290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca1609151cb9465469e683a3d66f851f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  killCount: 0
+--- !u!114 &114948864443399004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1706615572107290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac4c41733122b344a9a63981d110007, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
